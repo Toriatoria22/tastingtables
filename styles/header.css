@@ -1,0 +1,161 @@
+.header {
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+    background-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu {
+    color: white;
+    height: 24pt;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Tasting-Table-Full-Logo-Light {
+    height: 40px;
+}
+
+.middle-section {
+    display: inline-block;
+    margin-right: 250px;
+    margin-left: 70px;
+    position: relative;
+    overflow: hidden;
+    line-height: 70px;
+    z-index: 3;
+}
+
+.top-nav-holder {
+    font-size: 500;
+    color: white;
+}
+
+.recipes, .news, .exclusives, .restaurants,
+.cooking, .beverage, .grocery, .food-culture,
+.entertain, .holidays {
+    color: white;
+    font-family: Abril, Helvetica, Sans-serif;
+    font-size: large;
+    margin-right: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.recipes:hover, .news:hover, .exclusives:hover, .restaurants:hover,
+.cooking:hover, .beverage:hover, .grocery:hover, .food-culture:hover,
+.entertain:hover, .holidays:hover {
+    color: rgb(238, 176, 69);
+}
+
+.right-section {
+    width: 180px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.facebook-icon-container, 
+.twitter-icon-container,
+.flipboard-icon-container,
+.pinterest-icon-container,
+.google-icon-container,
+.rss-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: -90px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.facebook-icon-container:hover, 
+.twitter-icon-container:hover,
+.flipboard-icon-container:hover,
+.pinterest-icon-container:hover,
+.google-icon-container:hover,
+.rss-icon-container:hover {
+    color: rgb(238, 176, 69);
+}
+
+.facebook-icon-container .tooltip, 
+.twitter-icon-container .tooltip,
+.flipboard-icon-container .tooltip,
+.pinterest-icon-container .tooltip,
+.google-icon-container .tooltip,
+.rss-icon-container .tooltip {
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15;
+    pointer-events: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.facebook-icon-container:hover .tooltip, 
+.twitter-icon-container:hover .tooltip,
+.flipboard-icon-container:hover .tooltip,
+.pinterest-icon-container:hover .tooltip,
+.google-icon-container:hover .tooltip,
+.rss-icon-container:hover .tooltip {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.facebook-icon {
+    height: 26px;
+}
+
+.twitter-icon {
+    height: 26px;
+}
+
+.flipboard-icon {
+    height: 18px;
+    
+}
+
+.pinterest-icon {
+    height: 65px;
+    
+}
+
+.google-icon {
+    height: 24px;
+    padding-top: 5px;
+
+}
+
+.rss-icon {
+    height: 24px;
+    
+}
